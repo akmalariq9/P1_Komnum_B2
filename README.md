@@ -78,7 +78,9 @@ Dalam code tersebut, hal yang dilakukan adalah deklarasi variabel `function`, `a
 ![a2](https://user-images.githubusercontent.com/109916703/198060078-885a732f-990b-4c87-aa5b-e588b2159386.png)
 
 **Grafik yang Dihasilkan**
+
 ![a3](https://user-images.githubusercontent.com/109916703/198060873-374ac42b-ff26-4299-864b-d359dafd4b1e.png)
+
 
 # End Of The Line.
 ```c
