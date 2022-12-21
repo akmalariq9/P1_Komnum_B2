@@ -8,9 +8,9 @@
 | Muhammad Rifqi Fadhillah | 5025211228 | Komnum B |
 
 ## **Soal Praktikum**
-> Anda sudah mengerti algoritma pemrosesan metode Bolzano, dan anda sudah memahami cara kerjanya. Sekarang anda tinggal mengimplementasikan algoritma tersebut menjadi sebuah program komputer metode Bolzano (yang dapat menampilkan proses iteratif numerik, lengkap dengan grafik fungsinya).
+Anda sudah mengerti algoritma pemrosesan metode Bolzano, dan anda sudah memahami cara kerjanya. Sekarang anda tinggal mengimplementasikan algoritma tersebut menjadi sebuah program komputer metode Bolzano (yang dapat menampilkan proses iteratif numerik, lengkap dengan grafik fungsinya).
 
-## **Jawaban**
+## **Penjelasan**
 Metode Bolzano atau dapat juga disebut metode setengah interval (Interval Halving), merupakan salah satu metode yang dapat digunakan dalam mencari akar akar dari sebuah persamaan. Terdapat beberapa aplikasi yang bisa digunakan untuk mengimplementasikan Metode Bolzano, seperti google spreadsheets. Namun disini, akan digunakan bahasa python dalam implementasi Metode Bolzano. Berikut adalah code yang digunakan untuk implementasi Metode Bolzano, sekaligus jawaban dari Soal Praktikum 1 Komputasi Numerik. <br>  
 Sebelum memulai semuanya, maka langkah pertama yang harus dilakukan adalah dengan install beberapa library seperti `matplotlib`, `tabulate`, dan `numpy`. Setelah itu, maka harus dilakukan import kedalam project dengan cara sebagai berikut :<br>
 ```python
@@ -68,13 +68,18 @@ if __name__ == "__main__" :
     plt.ylabel('Y')
     plt.show()
 ```
-Dalam code tersebut, hal yang dilakukan adalah deklarasi variabel `function`, `a`, `b`, dan `loop` atau `iterasi`. Keempat variabel tersebut berasal dari input user, dengan tipe data `float` untuk variabel `a` dan `b`, serta `integer` untuk variabel `loop`. Nilai `x` didapat menggunakan fungsi `linspace` dari library `numpy` dan `y` berasal dari proses perhitungan. Kemudian digunakan juga bantuan dari library `matplotlib` yang telah diinput dengan nama `plt` untuk membuat grafik. Fungsi yang melibatkan matplotlib diantaranya ialah scatter untuk membuat titik, plot untuk membuat grafik, dan show untuk menampilkan grafik. Berikut adalah contoh jalannya program Metode Bolzano dengan input $x^2 - 10$, $a = -2,$ dan $b = 5$
+Dalam code tersebut, hal yang dilakukan adalah deklarasi variabel `function`, `a`, `b`, dan `loop` atau `iterasi`. Keempat variabel tersebut berasal dari input user, dengan tipe data `float` untuk variabel `a` dan `b`, serta `integer` untuk variabel `loop`. Nilai `x` didapat menggunakan fungsi `linspace` dari library `numpy` dan `y` berasal dari proses perhitungan. Kemudian digunakan juga bantuan dari library `matplotlib` yang telah diinput dengan nama `plt` untuk membuat grafik. Fungsi yang melibatkan matplotlib diantaranya ialah scatter untuk membuat titik, plot untuk membuat grafik, dan show untuk menampilkan grafik. 
+
+## **_Screeshot Running_ Program** 
+Berikut adalah contoh jalannya program Metode Bolzano dengan input $x^2 - 10$, $a = -2,$ dan $b = 5$
 <br>
 
 **Menggunakan Calculator Online**
+
 ![a1](https://user-images.githubusercontent.com/109916703/198058653-8a9d91c3-7320-4ad4-b1f3-2fb942c020e1.png)
 
 **Menggunakan Program Metode Bolzano**
+
 ![a2](https://user-images.githubusercontent.com/109916703/198060078-885a732f-990b-4c87-aa5b-e588b2159386.png)
 
 **Grafik yang Dihasilkan**
